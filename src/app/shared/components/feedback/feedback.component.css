@@ -3,8 +3,13 @@
   background-image: url(../../../../../public/images/slide-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 80px 60px;
+  padding: 80px 120px;
   text-align: center;
+      height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonialSwiper .swiper-slide .client-name h5 {
@@ -56,10 +61,6 @@
     line-height: 48px;
   }
 
-  .testimonialSwiper .swiper-slide {
-    padding: 50px 40px;
-  }
-
   .testimonialSwiper .swiper-slide .quate-icon {
     top: 40px;
     width: 70px;
@@ -78,10 +79,6 @@
   .section-header h2 {
     font-size: 36px;
     line-height: 42px;
-  }
-
-  .testimonialSwiper .swiper-slide {
-    padding: 40px 25px;
   }
 
   .testimonialSwiper .swiper-slide .quate-icon {
@@ -114,6 +111,13 @@
     height: 1080px;
     top: -80%;
   }
+  .testimonial-section {
+     padding-left: 15px;
+     padding-right: 15px;
+  }
+  .testimonial-section.pb-80 {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -123,7 +127,7 @@
   }
 
   .testimonial-section::after {
-    height: 960px;
+    height: 900px;
     top: -100%;
   }
 

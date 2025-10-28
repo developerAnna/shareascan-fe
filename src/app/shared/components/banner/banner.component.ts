@@ -47,41 +47,41 @@ export class BannerComponent implements AfterViewInit {
 
   public slides: IBanner[] = [
     {
-      title: 'Heading 1',
+      title: 'Wear Your World',
       subtitle: 'Integer euismod so lorem eu pretium',
       description:
-        'Praesent finibus, eros quis facilisis<br> egestas, velit tortor auctor nulla',
+        'Personalize hoodies, mugs, and more with your very own QR code — connect your style to your digital life.',
       image: './images/slide-1.png',
       bgColor: '#ceebd5',
       id: 1,
     },
     {
-      title: 'Heading 2',
+      title: 'From Style to Connection',
       subtitle: 'Integer euismod so lorem eu pretium',
       description:
-        'Praesent finibus, eros quis facilisis<br> egestas, velit tortor auctor nulla',
+        'Turn your merch into a scannable story. Let every outfit, mug, or case lead straight to your link, portfolio, or brand.',
       image: './images/slide-2.png',
       bgColor: '#ffdc62',
       id: 2,
     },
     {
-      title: 'Heading 3',
+      title: 'The Smarter Way to Share',
       subtitle: 'Integer euismod so lorem eu pretium',
       description:
-        'Praesent finibus, eros quis facilisis<br> egestas, velit tortor auctor nulla',
+        'QR-powered products that blend creativity, personality, and technology — all in one scan.',
       image: './images/slide-2.png',
       bgColor: '#58320552',
       id: 3,
     },
-    {
-      title: 'Heading 4',
-      subtitle: 'Integer euismod so lorem eu pretium',
-      description:
-        'Praesent finibus, eros quis facilisis<br> egestas, velit tortor auctor nulla',
-      image: './images/slide-2.png',
-      bgColor: '#ffdc62',
-      id: 4,
-    },
+    // {
+    //   title: 'Heading 4',
+    //   subtitle: 'Integer euismod so lorem eu pretium',
+    //   description:
+    //     'Praesent finibus, eros quis facilisis<br> egestas, velit tortor auctor nulla',
+    //   image: './images/slide-2.png',
+    //   bgColor: '#ffdc62',
+    //   id: 4,
+    // },
   ];
 
   ngAfterViewInit(): void {

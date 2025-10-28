@@ -59,19 +59,23 @@
     "bestsellers": "Best Sellers"
   },
   "subscribe": {
-    "title": "Subscribe to <span>Our Emails</span>",
-    "description": "Best deals and new drops before anyone",
-    "email_placeholder": "Email Address"
+    "title": "Stay in the <span>Loop</span>",
+    "description": "Get exclusive design tips, early deals, and creative ideas for your next custom QR merch.",
+    "email_placeholder": "Enter your email"
   },
   "shopping_cart": {
     "title": "Add To Cart"
   },
   "footer": {
-    "terms_and_conditions": "Terms and Conditions",
+    "terms_and_conditions": "Terms & Conditions",
     "privacy_policy": "Privacy Policy",
     "shipping_policy": "Shipping Policy",
-    "return_policy": "Return Policy",
-    "copyright": "All Rights Reserved"
+    "return_policy": " Refund Policy",
+    "Home": "Home",
+    "Shop": "Shop",
+    "About": "About",
+    "How-It-Works": "How It Works",
+    "Contact": "Contact"
   },
   "account": {
     "title": "My Account",

@@ -145,6 +145,10 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+    .section-header h2 { 
+        font-size: 36px;
+        line-height: 46px;
+    }
     .pb-80 {
         padding-bottom: 40px;
     }
@@ -155,6 +159,10 @@ p {
 }
 
 @media screen and (max-width: 576px) {
+    .section-header h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
     .pb-80 {
         padding-bottom: 20px;
     }

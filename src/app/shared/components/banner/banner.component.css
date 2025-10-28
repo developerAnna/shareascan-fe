@@ -117,6 +117,7 @@
 @media (max-width: 1023px) {
     .banner-carousel {
         padding: 0 20px 0 20px;
+                margin: 4px 0 0;
     }
 
     .banner-carousel .swiper-button-next,
@@ -154,5 +155,11 @@
     .custom-swiper-slide .swiper-caption p {
         font-size: 18px;
         line-height: 28px;
+    }
+     .banner-carousel .swiper-button-next {
+        right: 2px;
+     }
+    .banner-carousel .swiper-button-prev {
+        left: 2px;
     }
 }

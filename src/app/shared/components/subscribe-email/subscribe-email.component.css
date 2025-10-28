@@ -11,6 +11,8 @@
     align-items: center;
     width: 100%;
     height: 620px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .subscribe-section .subscribe-content h4 {
@@ -60,7 +62,7 @@
         line-height: 42px;
     }
 
-    subscribe-section .subscribe-content {
+    .subscribe-section .subscribe-content {
         height: 580px;
     }
 }

@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 991px) {
 .contact-address .address-box .social-media .list-inline-item:not(:last-child) {
-        margin-bottom: 0px;
+        margin-bottom: 20px;
                 margin-right: 4px;
 }
     .contact-address .address-box {
