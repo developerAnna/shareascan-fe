@@ -121,7 +121,7 @@
 }
     .contact-address .address-box {
         border-radius: 20px;
-        padding: 30px 30px 70px;
+        padding: 30px 30px 30px;
         margin: 0 15px;
         width: calc(100% - 30px);
     }
@@ -131,7 +131,7 @@
     }
 
     .contact-address .address-box .social-media {
-        bottom: 30px;
+        bottom: 0px;
     }
 
     /* Todo: change to gobal style */
@@ -179,8 +179,6 @@
     .contact-address .google-map img {
         border-radius: 20px;
     }
-   .contact-address .address-box .social-media {
-        bottom: 10px;
-    }
+   
   
 }

@@ -148,7 +148,7 @@
     -webkit-box-shadow: 5px 0 45px 0 rgba(34, 45, 77, 0.1);
     -moz-box-shadow: 5px 0 45px 0 rgba(34, 45, 77, 0.1);
     box-shadow: 5px 0 45px 0 rgba(34, 45, 77, 0.1);
-    padding: 10px;
+    padding: 16px;
     border-radius: 20px;
 }
 
@@ -356,6 +356,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .shop-section-right-area .shop-section-right-products-area .shop-section-right-products-area-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .shop-section-left-area .shop-section-left-filters .shop-section-left-filter-boxes .accordion .accordion-button {
         font-size: 16px;
         line-height: 24px;
