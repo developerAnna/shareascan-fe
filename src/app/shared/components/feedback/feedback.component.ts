@@ -63,15 +63,15 @@ export class FeedbackComponent implements OnDestroy {
         slidesPerView: 1,
         spaceBetween: 10,
       },
-      576: {
+      620: {
         slidesPerView: 1,
         spaceBetween: 15,
       },
-      991: {
+      1024: {
         slidesPerView: 2,
         spaceBetween: 20,
       },
-      1024: {
+      1200: {
         slidesPerView: 4,
         spaceBetween: 25,
       },
